@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **Topic Search** 🎯  
+**A Clean, Responsive Topic Browser Built with Next.js & Tailwind CSS**
 
-## Getting Started
+## **Overview**  
+Topic Search is a simple and responsive topic filtering application built with Next.js. It mimics the TOTLE Catalogue Management System’s topic browsing functionality. Users can search from a predefined list of topics and get instant, real-time results as they type — clean, quick, and user-friendly.
 
-First, run the development server:
+---
 
+## **Features** 🚀  
+✅ **Real-Time Filtering** – Instantly filters topics by name (case-insensitive).  
+
+✅ **Search Input** – A modern input with live response for better user experience.  
+
+✅ **Topic Cards** – Each topic displays both name and category.  
+
+✅ **Responsive Design** – Works on desktop, tablet, and mobile screens.
+
+✅ **Error Handling** – Gracefully handles no matches with a helpful message. 
+
+✅ **Simple UI** – Clean grey theme with minimalistic structure for clarity.
+
+---
+
+## **Tech Stack** 🛠  
+- **Framework:** Next.js (App Router)  
+
+- **UI Library:** Tailwind CSS  
+
+- **Icons:** Heroicons 
+
+- **Language:** TypeScript  
+
+- **State Management:** React Hooks (`useState`)  
+
+---
+
+## **Installation & Setup** 🏗  
+### **1. Clone the Repository**  
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/mohammadhashim135/topic-search.git
+
+cd topic-search
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **2. Install Dependencies**
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+### **3. Start the Application**
+```bash
+npm run dev
+```
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Usage Guide 📝
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔹 Start typing a keyword (e.g., "thermo") in the search input.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔹 The list updates in real-time with matched topics.  
 
-## Deploy on Vercel
+🔹 If no topics match, a message "No topics found" will appear. 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🔹 All data is in-memory and doesn't require a backend.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---
+
+## **Project Structure** 📂
+```bash
+app/
+│── globals.css
+│── layout.tsx
+│── page.tsx
+components/
+│── Navbar.tsx
+│── TopicSearch.tsx
+hooks/
+lib/
+public/
+next.config.mjs
+package.json
+
+```
+---
+## 📹 Demo Video
+
+Watch a short walkthrough of how the app works, its features, and folder structure.  
+📺 [Click Here to Watch](./demo.mp4)  
+*(Or open `demo.mp4` from the `public` folder manually.)*
+
+---
+## **Contributing** 🤝
+Contributions are welcome! If you’d like to improve topic-search, feel free to fork the repo and submit a pull request.
+
+### **Steps to Contribute:**
+### **1. Fork the repository**
+### **2. Create a new branch:**
+```bash
+git checkout -b feature-branch
+```
+
+### **3. Make your changes and commit:**
+
+```bash
+git commit -m "Added new feature"
+```
+### **4. Push to the branch:**
+```bash
+git push origin feature-branch
+```
+### **5. Open a Pull Request**
+---
+## **License** 📜
+This project is licensed under the MIT License.
+
+💡 Developed with ❤️ by [Mohammad Hashim](https://github.com/mohammadhashim135/topic-search.git)
+
