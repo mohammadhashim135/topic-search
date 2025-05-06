@@ -91,8 +91,8 @@ package.json
 ## 📹 Demo Video
 
 Watch a short walkthrough of how the app works, its features, and folder structure.  
-📺 [Click Here to Watch](./Demo.mp4)  
-*(Or open `demo.mp4` from the `public` folder manually.)*
+📺 [Click Here to Watch](/Demo.mp4)  
+*(Or open `Demo.mp4` from the `public` folder manually.)*
 
 ---
 ## **Contributing** 🤝
